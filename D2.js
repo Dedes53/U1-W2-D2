@@ -118,14 +118,22 @@ console.log(message1);
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-let val;
-if (tipeof(val)===)
+const val = "Ciao";
+if (typeof val === "number" && !isNaN(val)) {
+  console.log("È un numero");
+} else {
+  console.log("Non è un numero");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+let x = 5;
+if (x % 2 === 0) {
+  console.log(`${x} è pari`);
+} else {
+  console.log(`${x} è dispari`);
+}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
