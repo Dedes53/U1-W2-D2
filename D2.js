@@ -137,17 +137,15 @@ if (x % 2 === 0) {
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+  */
+let y = 5;
+if (y >= 10) {
+  console.log("Uguale a 10 o maggiore");
+} else if (y < 10 && y >= 5) {
+  console.log("Meno di 10");
+} else {
+  console.log("Meno di 5");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
