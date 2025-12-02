@@ -178,8 +178,10 @@ console.log(me);
 let numbers = [];
 console.log(numbers);
 
+for (let i = 1; i <= 10; i++) {
+  numbers.push(i);
+}
+console.log(numbers);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
