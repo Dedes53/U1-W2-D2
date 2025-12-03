@@ -38,8 +38,10 @@ if (num4 % 5 === 0) {
 */
 let num5 = 5;
 let num6 = 3;
-let bool = num5 === 8 || num6 === 8 || num5 + num6 === 8;
-console.log(bool);
+
+if (num5 === 8 || num6 === 8 || num5 + num6 === 8 || num5 - num6 === 8 || num6 - num5 === 8) {
+  console.log("condizioni verificate");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -47,8 +49,10 @@ console.log(bool);
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 let totalShoppingCart = 70;
+let shipping = 10;
+
 if (totalShoppingCart < 50) {
-  totalShoppingCart += 10;
+  totalShoppingCart += shipping;
 }
 console.log(totalShoppingCart);
 
@@ -64,7 +68,7 @@ totalShoppingCart -= totalShoppingCart * sales;
 console.log(totalShoppingCart);
 
 if (totalShoppingCart < 50) {
-  totalShoppingCart += 10;
+  totalShoppingCart += shipping;
 }
 console.log(totalShoppingCart);
 
@@ -137,14 +141,22 @@ if (x % 2 === 0) {
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+  let val = 7
+  if (val < 10) {
+      console.log("Meno di 10");
+    } else if (val < 5) {
+      console.log("Meno di 5");
+    } else {
+      console.log("Uguale a 10 o maggiore");
+    }
   */
-let y = 5;
-if (y >= 10) {
-  console.log("Uguale a 10 o maggiore");
-} else if (y < 10 && y >= 5) {
+let val1 = 7;
+if (val < 5) {
+  console.log("Meno di 5");
+} else if (val < 10) {
   console.log("Meno di 10");
 } else {
-  console.log("Meno di 5");
+  console.log("Uguale a 10 o maggiore");
 }
 
 /* ESERCIZIO 11
