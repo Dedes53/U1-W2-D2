@@ -47,8 +47,10 @@ console.log(bool);
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 let totalShoppingCart = 70;
+let shippingCost = 10;
+
 if (totalShoppingCart < 50) {
-  totalShoppingCart += 10;
+  totalShoppingCart += shippingCost;
 }
 console.log(totalShoppingCart);
 
@@ -56,7 +58,6 @@ console.log(totalShoppingCart);
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-
 let sales = 20 / 100;
 console.log(sales);
 
@@ -64,7 +65,7 @@ totalShoppingCart -= totalShoppingCart * sales;
 console.log(totalShoppingCart);
 
 if (totalShoppingCart < 50) {
-  totalShoppingCart += 10;
+  totalShoppingCart += shippingCost;
 }
 console.log(totalShoppingCart);
 
@@ -137,7 +138,7 @@ if (x % 2 === 0) {
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  */
+*/
 let y = 5;
 if (y >= 10) {
   console.log("Uguale a 10 o maggiore");
