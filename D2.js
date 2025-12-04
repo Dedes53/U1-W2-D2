@@ -139,13 +139,13 @@ if (x % 2 === 0) {
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
 */
-let y = 5;
-if (y >= 10) {
-  console.log("Uguale a 10 o maggiore");
-} else if (y < 10 && y >= 5) {
+let val1 = 7;
+if (val1 < 5) {
+  console.log("Meno di 5");
+} else if (val1 < 10) {
   console.log("Meno di 10");
 } else {
-  console.log("Meno di 5");
+  console.log("Uguale a 10 o maggiore");
 }
 
 /* ESERCIZIO 11
@@ -183,6 +183,7 @@ for (let i = 1; i <= 10; i++) {
   numbers.push(i);
 }
 console.log(numbers);
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
